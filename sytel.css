@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    
+  
+
+
+}
+.can {
+    
+    background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+    
+ 
+  }
+  .vedio{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    margin-top: 20px;
+
+  }
+
+h1{
+   
+    color: white;
+
+    margin-top: 360px;
+    
+        font-family: "Protest Guerrilla", sans-serif;    
+      
+}
+#name{
+    color: rgb(198, 17, 17);
+    font-size: 45px;
+
+}
+#va{
+    color: rgb(50, 158, 200);
+    font-size: 45px;
+
+
+}
+#voice{
+    width: 150px;
+    margin-left: 250px;
+    margin-top: 20px;
+    display: none;
+    
+}
+#btn{
+    background: linear-gradient(to right,rgb(228, 95, 95),rgb(93, 93, 160));
+    color: white;
+    width: 60%;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    transition: all 0.5s;
+    margin-top: 36px;
+    margin-left: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgb(224, 20, 20),2px 2px 10px rgb(16, 16, 200);
+    border: none;
+}
+
+#btn:hover{
+    box-shadow: 2px 2px 20px rgb(224, 20, 20),2px 2px 20px rgb(16, 16, 200);
+    letter-spacing: 2px;
+    
+
+}
+
+
+
+
+
+
